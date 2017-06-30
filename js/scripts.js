@@ -71,9 +71,9 @@
         $('#about div p').addClass('hvr-underline-from-left');
     });
 
-    // smooth scroll (snippet)
+    // smooth scroll section
     $(document).ready(function(){
-        $('a[href^="#"]').on('click',function (e) {
+        $('a.link[href^="#"]').on('click',function(e){
             e.preventDefault();
 
             var target = this.hash;
