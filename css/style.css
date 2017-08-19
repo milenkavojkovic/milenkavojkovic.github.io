@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Poppins', sans-serif;
     color: #6f6f6f;
 }
@@ -39,6 +39,9 @@ header{
     align-items: center;
     background-color: #fff; 
 }
+header a{
+    margin: 0 auto;
+}
 header a:hover{
     color: #0a0a0a;
 }
@@ -65,7 +68,7 @@ nav{
     position: fixed;
     background-color: #111;
     overflow-x: hidden; /* Disable horizontal scroll */
-    transition: .5s linear;
+    transition: .3s linear;
     right: -13em;
     z-index: 99;
 }
@@ -79,6 +82,9 @@ nav span:hover{ /* hamburguer menu close icon */
 }
 nav ul{
     list-style: none;
+}
+nav ul li{
+    margin: 1.2em 0;
 }
 nav ul a{
     text-decoration: none !important;
@@ -145,7 +151,7 @@ nav ul a:hover{
 #about{
     display: flex;
     justify-content: center;
-    margin: 10% 0;
+    margin: 5% 0;
 }
 #about>.row{
     width: 100%;

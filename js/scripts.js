@@ -55,16 +55,6 @@
           }
     });
 
-    // ionicons hover
-/*    $(document).ready(function(){
-        $('#work-1 div:last-child a img').mouseenter(function(){
-            $('#work-1 div:last-child a i').delay(5000).css('display','block');
-                $('#work-1 div:last-child a img').mouseleave(function(){
-            $('#work-1 div:last-child a i').delay(5000).css('display','none');    
-        });
-        });
-    });*/
-
     // hover.css    
     $(document).ready(function(){
         $('#projects div h3').addClass('hvr-underline-from-left');
