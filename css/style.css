@@ -7,7 +7,7 @@
 }
 body{
     font-size: 13px;
-    font-family: 'Poppins', 'sans-serif';
+    font-family: "Poppins","arial";
     color: #6f6f6f;
 }
 header, section, footer{
@@ -181,7 +181,7 @@ nav ul a:hover{
     list-style: none;
 }
 #about div p{
-    font-family: 'Oxygen', 'sans-serif';
+    font-family: "Oxygen","arial";
     font-weight: 400;
     cursor: pointer;
 }
